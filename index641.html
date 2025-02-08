@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sybrava sesión 10</title>
+
+		<link rel="stylesheet" href="./css/styles641.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<!-- Scripts -->
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/functions.js"></script>
+	</head>
+	<body class="ancho">
+		<div class="container">
+			<img
+				src="./imagenes/portada641.jpg"
+				alt="Portada"
+				class="cover-image" />
+
+			<a href="./index.html" class="boton-home"></a>
+			<a href="./index640.html" class="boton-atras"></a>
+			<a href="./index642.html" class="boton-next"></a>
+
+			<!-- modal -->
+			<div class="openModal"></div>
+			<div class="modal" style="display: none; height: 100%">
+				<img src="./imagenes/pol1.jpg" class="ancho" id="image" />
+				<div class="closeModal"></div>
+			</div>
+			<!-- modal -->
+
+			<!-- modal 1 -->
+			<div class="openModal1"></div>
+			<div class="modal1" style="display: none; height: 100%">
+				<img src="./imagenes/pol2.jpg" class="ancho" id="image" />
+				<div class="closeModal1"></div>
+			</div>
+			<!-- modal 1 -->
+
+			<!-- modal 2 -->
+			<div class="openModal2"></div>
+			<div class="modal2" style="display: none; height: 100%">
+				<img src="./imagenes/pol3.jpg" class="ancho" id="image" />
+				<div class="closeModal2"></div>
+			</div>
+			<!-- modal 2 -->
+
+			<!-- modal 3 -->
+			<div class="openModal3"></div>
+			<div class="modal3" style="display: none; height: 100%">
+				<img src="./imagenes/pol4.jpg" class="ancho" id="image" />
+				<div class="closeModal3"></div>
+			</div>
+			<!-- modal 3 -->
+
+			<!-- modal 4 -->
+			<div class="openModal4"></div>
+			<div class="modal4" style="display: none; height: 100%">
+				<img src="./imagenes/pol5.jpg" class="ancho" id="image" />
+				<div class="closeModal4"></div>
+			</div>
+			<!-- modal 4 -->
+
+			<!-- modal 5 -->
+			<div class="openModal5"></div>
+			<div class="modal5" style="display: none; height: 100%">
+				<img src="./imagenes/pol6.jpg" class="ancho" id="image" />
+				<div class="closeModal5"></div>
+			</div>
+			<!-- modal 4 -->
+
+			<!-- modal 6 -->
+			<div class="openModal6"></div>
+			<div class="modal6" style="display: none; height: 100%">
+				<img src="./imagenes/pol7.jpg" class="ancho" id="image" />
+				<div class="closeModal6"></div>
+			</div>
+			<!-- modal 6 -->
+
+			<div class="vutom-col"></div>
+
+			<div
+				class="puntero animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero" />
+			</div>
+
+			<div
+				class="puntero1 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero1" />
+			</div>
+
+			<div
+				class="puntero2 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero1" />
+			</div>
+
+			<div
+				class="puntero3 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero3" />
+			</div>
+
+			<div
+				class="puntero4 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero4" />
+			</div>
+
+			<div
+				class="puntero5 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero5" />
+			</div>
+
+			<div
+				class="puntero6 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero6" />
+			</div>
+		</div>
+
+		<!-- Scripts -->
+
+		<script src="./js/script641.js"></script>
+		<script>
+			$(document).ready(function () {
+				const slides = [
+					'slide647',
+					'slide648',
+					'slide649',
+					'slide650',
+					'slide651',
+					'slide652',
+					'slide653',
+				]
+
+				const exist = []
+
+				slides.forEach((item, index) => {
+					if (localStorage.getItem(item) === 'true') {
+						exist.push(item)
+						document.querySelector(
+							`.puntero${index === 0 ? '' : index}`
+						).style.display = 'none'
+						if (exist.length === 7) {
+							$('.boton-next').show()
+							$('.vutom-col').hide()
+						}
+					}
+				})
+
+				if (exist.length === 7) {
+					$('.boton-next').show()
+					$('.vutom-col').hide()
+				}
+			})
+		</script>
+	</body>
+</html>

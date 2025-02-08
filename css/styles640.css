@@ -1,0 +1,592 @@
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.link {
+	position: absolute;
+	width: 52%;
+    height: 10%;
+    top: 68%;
+    left: 6%;
+}
+
+.container .cover-image {
+	width: auto;
+	height: 100vh;
+}
+
+.start-button {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+.boton-home {
+	position: absolute;
+	width: 6%;
+	height: 10%;
+	top: 4%;
+	right: 2%;
+}
+
+.boton-atras {
+	position: absolute;
+	width: 6%;
+	height: 10%;
+	top: 85%;
+	left: 5%;
+}
+
+.boton-next {
+	position: absolute;
+	width: 6%;
+	height: 10%;
+	top: 85%;
+	right: 2%;
+}
+
+.puntero {
+	position: absolute;
+    width: 2%;
+    height: 5%;
+	top: 44.1%;
+    right: 34.5%;
+}
+
+.puntero img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero1 {
+	position: absolute;
+    width: 2%;
+    height: 5%;
+	top: 44.1%;
+    right: 9.5%;
+}
+
+.puntero1 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero1.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero1::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero2 {
+	position: absolute;
+	width: 2%;
+    height: 5%;
+	top: 58.1%;
+    left: 63.5%;
+}
+
+.puntero2 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero2.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero2::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero3 {
+	position: absolute;
+    width: 2%;
+    height: 5%;
+	top: 58.1%;
+    right: 9.5%;
+}
+
+.puntero3 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero3.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero3::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero4 {
+	position: absolute;
+	width: 2%;
+    height: 5%;
+	top: 70.1%;
+    left: 63.5%;
+}
+
+.puntero4 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero4.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero4::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero5 {
+	position: absolute;
+    width: 2%;
+    height: 5%;
+	top: 71.1%;
+    right: 9.5%;
+}
+
+.puntero5 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero5.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero5::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero6 {
+	position: absolute;
+    width: 2%;
+    height: 5%;
+	top: 84.1%;
+    right: 16.5%;
+}
+
+.puntero6 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero6.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero6::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+
+/* modal  */
+.openModal {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 24.2%;
+    height: 12%;
+    left: 42.4%;
+    top: 37.2%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.modal img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 14.1%;
+    right: 9%;
+	cursor: pointer;
+}
+
+/* modal 1 */
+.openModal1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 24.2%;
+    height: 12%;
+    right: 8.2%;
+    top: 37.2%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.modal1 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal1 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 14.1%;
+    right: 9%;
+	cursor: pointer;
+}
+
+/* modal 2 */
+.openModal2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 24.2%;
+    height: 12%;
+    left: 42.4%;
+    top: 50.2%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.modal2 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal2 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 14.1%;
+    right: 9%;
+	cursor: pointer;
+}
+
+/* modal 3 */
+.openModal3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 24.2%;
+    height: 12%;
+    right: 8.2%;
+    top: 50.6%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.modal3 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal3{
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 14.1%;
+    right: 9%;
+	cursor: pointer;
+}
+
+/* modal 4 */
+.openModal4 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 24.2%;
+    height: 12%;
+    left: 42.4%;
+    top: 64.2%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.modal4 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal4 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 14.1%;
+    right: 9%;
+	cursor: pointer;
+}
+
+/* modal 5 */
+.openModal5 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 24.2%;
+    height: 12%;
+    right: 8.2%;
+    top: 63.6%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.modal5 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal5 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 14.1%;
+    right: 9%;
+	cursor: pointer;
+}
+
+/* modal 6 */
+.openModal6 {
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 35.2%;
+    height: 12%;
+    right: 14.9%;
+    top: 77.1%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.modal6 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal6 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 14.1%;
+    right: 9%;
+	cursor: pointer;
+}
+
+.vutom-col {
+	position: absolute;
+	width: 5.4%;
+    height: 8.4%;
+    top: 85%;
+    right: 2%;
+	background: #ffffff80;
+	border-radius: 90px;
+}
+
+/* Responsive */
+@media (max-width: 1365px) and (min-height: 768px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (max-height: 767px) {
+	.container {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (min-height: 625px) and (max-height: 1280px) and (max-width: 1024px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media (max-height: 624px) and (max-width: 767px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}

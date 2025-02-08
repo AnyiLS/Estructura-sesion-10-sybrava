@@ -1,0 +1,567 @@
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.container .cover-image {
+	width: auto;
+	height: 100vh;
+}
+
+/* cuadros azules */
+.cuadro1 {
+	position: absolute;
+	width: 12%;
+	top: 12.2%;
+	left: 20%;
+}
+
+.cuadro1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro2 {
+	position: absolute;
+	width: 12%;
+	top: 12.2%;
+	left: 32.1%;
+}
+
+.cuadro2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro3 {
+	position: absolute;
+	width: 12%;
+	top: 12.2%;
+	left: 44%;
+}
+
+.cuadro3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro4 {
+	position: absolute;
+	width: 12%;
+	top: 12.2%;
+	right: 32%;
+}
+
+.cuadro4 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro5 {
+	position: absolute;
+	width: 12%;
+	top: 12.2%;
+	right: 19.7%;
+}
+
+.cuadro5 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro6 {
+	position: absolute;
+	width: 12%;
+	top: 33.3%;
+	left: 20%;
+}
+
+.cuadro6 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro7 {
+	position: absolute;
+	width: 12%;
+	top: 33.2%;
+	left: 32.1%;
+}
+
+.cuadro7 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro8 {
+	position: absolute;
+	width: 12%;
+	top: 33.2%;
+	left: 44%;
+}
+
+.cuadro8 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro9 {
+	position: absolute;
+	width: 12%;
+	top: 33.2%;
+	right: 32%;
+}
+
+.cuadro9 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro10 {
+	position: absolute;
+	width: 12%;
+	top: 33.2%;
+	right: 19.7%;
+}
+
+.cuadro10 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro11 {
+	position: absolute;
+	width: 12%;
+	top: 54.6%;
+	left: 20%;
+}
+
+.cuadro11 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro12 {
+	position: absolute;
+	width: 12%;
+	top: 54.6%;
+	left: 32.1%;
+}
+
+.cuadro12 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro13 {
+	position: absolute;
+	width: 12%;
+	top: 54.6%;
+	left: 44%;
+}
+
+.cuadro13 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro14 {
+	position: absolute;
+	width: 12%;
+	top: 54.6%;
+	right: 32%;
+}
+
+.cuadro14 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro15 {
+	position: absolute;
+	width: 12%;
+	top: 54.6%;
+	right: 19.7%;
+}
+
+.cuadro15 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro16 {
+	position: absolute;
+	width: 12%;
+	top: 76.3%;
+	left: 20%;
+}
+
+.cuadro16 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro17 {
+	position: absolute;
+	width: 12%;
+	top: 76.3%;
+	left: 32.1%;
+}
+
+.cuadro17 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro18 {
+	position: absolute;
+	width: 12%;
+	top: 76.3%;
+	left: 44%;
+}
+
+.cuadro18 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro19 {
+	position: absolute;
+	width: 12%;
+	top: 76.3%;
+	right: 32%;
+}
+
+.cuadro19 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cuadro20 {
+	position: absolute;
+	width: 12%;
+	top: 76.3%;
+	right: 19.7%;
+}
+
+.cuadro20 img {
+	width: 100%;
+	height: 100%;
+}
+/* cuadros azules */
+
+/* caras juego */
+.cua1 {
+	position: absolute;
+	width: 11.8%;
+	top: 12.2%;
+	left: 20.4%;
+}
+
+.cua1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua2 {
+	position: absolute;
+	width: 11.8%;
+	top: 12.2%;
+	left: 32.2%;
+}
+
+.cua2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua3 {
+	position: absolute;
+	width: 11.7%;
+	top: 12.3%;
+	left: 44.3%;
+}
+
+.cua3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua4 {
+	position: absolute;
+	width: 11.7%;
+	top: 12.2%;
+	right: 32%;
+}
+
+.cua4 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua5 {
+	position: absolute;
+	width: 11.7%;
+	top: 12.3%;
+	right: 19.7%;
+}
+
+.cua5 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua6 {
+	position: absolute;
+	width: 11.7%;
+	top: 33.7%;
+	left: 20.2%;
+}
+
+.cua6 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua7 {
+	position: absolute;
+	width: 11.7%;
+	top: 33.4%;
+	left: 32.3%;
+}
+
+.cua7 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua8 {
+	position: absolute;
+	width: 11.7%;
+	top: 33.5%;
+	left: 44.2%;
+}
+
+.cua8 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua9 {
+	position: absolute;
+	width: 11.7%;
+	top: 33.5%;
+	right: 32%;
+}
+
+.cua9 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua10 {
+	position: absolute;
+	width: 11.7%;
+	top: 33.5%;
+	right: 19.7%;
+}
+
+.cua10 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua11 {
+	position: absolute;
+	width: 11.7%;
+	top: 54.9%;
+    left: 20.1%;
+}
+
+.cua11 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua12 {
+	position: absolute;
+	width: 11.7%;
+	top: 55.1%;
+    left: 32.3%;
+}
+
+.cua12 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua13 {
+	position: absolute;
+	width: 11.7%;
+	top: 55%;
+    left: 44.2%;
+}
+
+.cua13 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua14 {
+	position: absolute;
+	width: 11.7%;
+	top: 54.9%;
+	right: 32%;
+}
+
+.cua14 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua15 {
+	position: absolute;
+	width: 11.7%;
+	top: 54.6%;
+	right: 19.7%;
+}
+
+.cua15 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua16 {
+	position: absolute;
+	width: 11.7%;
+	top: 76.5%;
+    left: 20.1%;
+}
+
+.cua16 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua17 {
+	position: absolute;
+	width: 11.7%;
+	top: 76.7%;
+    left: 32.2%;
+}
+
+.cua17 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua18 {
+	position: absolute;
+	width: 11.7%;
+	top: 76.5%;
+    left: 44.1%;
+}
+
+.cua18 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua19 {
+	position: absolute;
+	width: 11.7%;
+	top: 76.5%;
+	right: 32%;
+}
+
+.cua19 img {
+	width: 100%;
+	height: 100%;
+}
+
+.cua20 {
+	position: absolute;
+	width: 11.7%;
+	top: 76.6%;
+	right: 19.7%;
+}
+
+.cua20 img {
+	width: 100%;
+	height: 100%;
+}
+/* caras juego */
+
+
+
+/* Definimos la animación para el resplandor */
+@keyframes pulseGlow {
+	0% {
+		transform: scale(1);
+		opacity: 0.7;
+	}
+	50% {
+		transform: scale(1.5);
+		opacity: 0.3;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0.7;
+	}
+}
+
+/* Responsive */
+@media (max-width: 1365px) and (min-height: 768px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (max-height: 767px) {
+	.container {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (min-height: 625px) and (max-height: 1280px) and (max-width: 1024px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media (max-height: 624px) and (max-width: 767px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
