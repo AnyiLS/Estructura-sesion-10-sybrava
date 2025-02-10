@@ -2,8 +2,6 @@
 	font-family: volta_modern_display_75_bold;
 	src: url('../css/volta_modern_display_75_bold.otf');
 }
-
-
 body {
 	margin: 0;
 	height: 100vh;
@@ -46,8 +44,8 @@ body {
 	position: absolute;
     width: 6%;
     height: 12%;
-    top: 84%;
-    left: 37.6%;
+    top: 4%;
+    right: 2.6%;
 }
 
 .boton-next {
@@ -61,12 +59,11 @@ body {
 .dowload {
 	position: absolute;
 	width: 43%;
-    height: 10%;
-    top: 55%;
-    left: 14%;
+	height: 10%;
+	top: 55%;
+	left: 14%;
 	cursor: pointer;
 }
-
 
 /* Definimos la animación para el resplandor */
 @keyframes pulseGlow {
@@ -126,48 +123,15 @@ body {
 		width: 100vw;
 		height: auto;
 	}
-
-	.total {
-		position: absolute;
-		top: 39.2%;
-		right: 38%;
-		color: transparent;
-		background: linear-gradient(to top, #0761a6, #2280bc);
-		background-clip: text;
-		font-weight: 700;
-		font-family: volta_modern_display_75_bold;
-	}
-	
-	.intentos {
-		position: absolute;
-		top: 69%;
-		right: 17.6%;
-		font-weight: 700;
-		color: transparent;
-		background: linear-gradient(to top, #0761a6, #2280bc);
-		background-clip: text;
-		font-family: volta_modern_display_75_bold;
-	}
 }
 
 .total {
 	position: absolute;
-	top: 37%;
-    right: 90%;
+	top: 57.3%;
+    left: 31%;
     color: transparent;
-    background: white;
-    background-clip: text;
-    font-weight: 700;
-	font-family: volta_modern_display_75_bold;
-}
-
-.intentos {
-	position: absolute;
-	top: 45.4%;
-    left: 4.7%;
-    font-weight: 700;
-	color: transparent;
-    background: linear-gradient(to right, #082e71, #50d6c9);
-    background-clip: text;
+    background: linear-gradient(to top, #3bbbc4, #1764a8);
+	background-clip: text;
+	font-weight: 700;
 	font-family: volta_modern_display_75_bold;
 }

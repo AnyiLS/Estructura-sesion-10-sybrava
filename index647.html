@@ -1,191 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Sybrava sesión 10</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sybrava sesión 10</title>
 
-		<link rel="stylesheet" href="./css/styles647.css" />
-		<link rel="stylesheet" href="./css/stylemodal.css" />
-		<!-- Scripts -->
-		<script src="./js/jquery-3.2.1.min.js"></script>
-		<script src="./js/functions.js"></script>
-	</head>
-	<body class="ancho">
-		<div class="container">
-			<img
-				src="./imagenes/portada647.jpg"
-				alt="Portada"
-				class="cover-image" />
+    <link rel="stylesheet" href="./css/styles647.css" />
+    <!-- <link rel="stylesheet" href="./css/stylemodal.css" /> -->
+    <!-- Scripts -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/functions.js"></script>
+  </head>
+  <body class="ancho">
+    <div class="container">
+      <img src="./imagenes/portada647.jpg" alt="Portada" class="cover-image" />
 
-			<!-- cuadros azules -->
-			<div class="cuadro1">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro2">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro3">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro4">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro5">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro6">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro7">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro8">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro9">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro10">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro11">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro12">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro13">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro14">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro15">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro16">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro17">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro18">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro19">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<div class="cuadro20">
-				<img src="./imagenes/cuadro1.png" alt="" />
-			</div>
-			<!-- cuadros azules -->
+      <!-- Blue Cards Container -->
+      <div id="blue-cards-container"></div>
+      <!-- End Cards Container  -->
 
-			<!-- caras giradas -->
-			<div class="cua1" style="display: none">
-				<img src="./imagenes/imagen1.png" alt="" />
-			</div>
-			<div class="cua2" style="display: none">
-				<img src="./imagenes/imagen2.png" alt="" />
-			</div>
-			<div class="cua3" style="display: none">
-				<img src="./imagenes/imagen3.png" alt="" />
-			</div>
-			<div class="cua4" style="display: none">
-				<img src="./imagenes/imagen4.png" alt="" />
-			</div>
-			<div class="cua5" style="display: none">
-				<img src="./imagenes/imagen5.png" alt="" />
-			</div>
-			<div class="cua6" style="display: none">
-				<img src="./imagenes/imagen6.png" alt="" />
-			</div>
-			<div class="cua7" style="display: none">
-				<img src="./imagenes/imagen4.png" alt="" />
-			</div>
-			<div class="cua8" style="display: none">
-				<img src="./imagenes/imagen7.png" alt="" />
-			</div>
-			<div class="cua9" style="display: none">
-				<img src="./imagenes/imagen8.png" alt="" />
-			</div>
-			<div class="cua10" style="display: none">
-				<img src="./imagenes/imagne3.png" alt="" />
-			</div>
-			<div class="cua11" style="display: none">
-				<img src="./imagenes/imagen9.png" alt="" />
-			</div>
-			<div class="cua12" style="display: none">
-				<img src="./imagenes/imagen2.png" alt="" />
-			</div>
-			<div class="cua13" style="display: none">
-				<img src="./imagenes/imagen7.png" alt="" />
-			</div>
-			<div class="cua14" style="display: none">
-				<img src="./imagenes/imagen9.png" alt="" />
-			</div>
-			<div class="cua15" style="display: none">
-				<img src="./imagenes/imagen1.png" alt="" />
-			</div>
-			<div class="cua16" style="display: none">
-				<img src="./imagenes/imagen5.png" alt="" />
-			</div>
-			<div class="cua17" style="display: none">
-				<img src="./imagenes/imagne3.png" alt="" />
-			</div>
-			<div class="cua18" style="display: none">
-				<img src="./imagenes/imagen8.png" alt="" />
-			</div>
-			<div class="cua19" style="display: none">
-				<img src="./imagenes/imagen3.png" alt="" />
-			</div>
-			<div class="cua20" style="display: none">
-				<img src="./imagenes/imagen6.png" alt="" />
-			</div>
-			<!-- caras giradas -->
+      <!-- preguntas 1 -->
+      <div class="modal-pregunta" id="modal-pregunta">
+        <!-- Question image -->
+        <img
+          src="./imagenes/pregunta1.jpg"
+          id="pregunta"
+          class="ancho"
+          id="image"
+        />
+        <!-- Options -->
+        <div class="option" id="a"></div>
+        <div class="option" id="b"></div>
+        <div class="option" id="c"></div>
+        <div class="option" id="d"></div>
+        <!-- Close Modal -->
+        <div class="close-modal" id="close"></div>
+        <!-- Alert Modal -->
+        <div class="modal" id="modal" style="display: none; height: 100%">
+          <img src="./imagenes/rojo.png" class="ancho" id="image" />
+        </div>
+      </div>
+      <!-- preguntas 1 -->
 
-			<!-- preguntas 1 -->
-			<div class="modalpregunta" style="display: block; height: 100%">
-				<img src="./imagenes/pregunta1.jpg" class="ancho" id="image" />
-				<div class="closeModalpregunta"></div>
-			</div>
+      <!-- respuesta correcta -->
 
-			<!-- respuesta correcta -->
-			<div class="opcion"></div>
+      <!-- <div class="correcta" style="display: block">
+        <img src="./imagenes/respuesta-1.png" alt="" />
+      </div> -->
+      <!-- respuesta correcta -->
 
-			<div class="correcta" style="display: none">
-				<img src="./imagenes/respuesta-1.png" alt="" />
-			</div>
+      <!-- modal correcta -->
+      <div class="modal3" style="display: none; height: 100%">
+        <img src="./imagenes/verde.png" class="ancho" id="image" />
+        <div class="closeModal2"></div>
+      </div>
 
-			<!-- modal correcta -->
-			<div class="modal3" style="display: none; height: 100%">
-				<img src="./imagenes/verde.png" class="ancho" id="image" />
-				<div class="closeModal2"></div>
-			</div>
+      <!-- modal incorrecta 1 -->
+      <div class="modal" style="display: none; height: 100%">
+        <img src="./imagenes/rojo.png" class="ancho" id="image" />
+        <div class="closeModal"></div>
+      </div>
 
-			<!-- modal incorrecta 1 -->
-			<div class="modal" style="display: none; height: 100%">
-				<img src="./imagenes/rojo.png" class="ancho" id="image" />
-				<div class="closeModal"></div>
-			</div>
+      <!-- modal incorrecta 2 -->
+      <div class="modal1" style="display: none; height: 100%">
+        <img src="./imagenes/rojo.png" class="ancho" id="image" />
+        <div class="closeModal1"></div>
+      </div>
 
-			<!-- modal incorrecta 2 -->
-			<div class="modal1" style="display: none; height: 100%">
-				<img src="./imagenes/rojo.png" class="ancho" id="image" />
-				<div class="closeModal1"></div>
-			</div>
+      <!-- modal incorrecta 3 -->
+      <div class="modal2" style="display: none; height: 100%">
+        <img src="./imagenes/rojo.png" class="ancho" id="image" />
+        <div class="closeModal2"></div>
+      </div>
+    </div>
 
-			<!-- modal incorrecta 3 -->
-			<div class="modal2" style="display: none; height: 100%">
-				<img src="./imagenes/rojo.png" class="ancho" id="image" />
-				<div class="closeModal2"></div>
-			</div>
-			<!-- preguntas 1 -->
-		</div>
-
-		<!-- Scripts -->
-		<script src="./js/gameFunction.js"></script>
-		<script src="./js/sonidos.js"></script>
-		<script src="./js/script647.js"></script>
-	</body>
+    <!-- Scripts -->
+    <script src="./js/sonidos.js"></script>
+    <script src="./js/game-library/cards-mocks.js"></script>
+    <script src="./js/game-library/cards.js"></script>
+    <script src="./js/script647.js"></script>
+  </body>
 </html>

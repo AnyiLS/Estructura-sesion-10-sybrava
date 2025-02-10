@@ -49,8 +49,16 @@ body {
 	position: absolute;
 	width: 6%;
 	height: 10%;
-	top: 87%;
-    right: 56.3%;
+	top: 84.3%;
+    left: 5%;
+}
+
+.juego {
+	position: absolute;
+	width: 42%;
+    height: 10%;
+    top: 65%;
+    left: 28%;
 }
 
 

@@ -52,12 +52,12 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
-	width: 40%;
-	height: 60%;
-	z-index: 1000;
-	display: block;
-	right: 5.3%;
-	top: 21%;
+	width: 42%;
+    height: 67%;
+    z-index: 1000;
+    display: block;
+    right: 5.3%;
+    top: 21.5%;
 }
 
 .closeModal {
